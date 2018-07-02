@@ -11,6 +11,7 @@
 |
 */
 
+// Route::get('/', 'webshot');
 Route::get('/', function () {
     return view('welcome');
 });

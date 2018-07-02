@@ -1,5 +1,6 @@
-@extends('layouts.app')
 
+@extends('layouts.app')
+   
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
@@ -17,7 +18,11 @@
                     You are logged in!
                 </div>
             </div>
+
         </div>
+        <!-- I added thes weird tags. -->
+        <example-component></example-component>
     </div>
 </div>
+
 @endsection
